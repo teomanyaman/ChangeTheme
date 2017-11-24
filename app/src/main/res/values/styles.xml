@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorDefaultPrimary</item>
+        <item name="colorPrimaryDark">@color/colorDefaultDark</item>
+        <item name="colorAccent">@color/colorDefaultAccent</item>
+        <item name="android:textColor">@color/colorDefaultAccent</item>
+        <item name="android:windowBackground">@drawable/window_background_default</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeWhite" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorWhitePrimary</item>
+        <item name="colorPrimaryDark">@color/colorDarkWhite</item>
+        <item name="colorAccent">@color/colorAccentWhite</item>
+        <item name="android:textColor">@color/colorBlackPrimary</item>
+        <item name="android:windowBackground">@drawable/window_background_white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeBlack" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorBlackPrimary</item>
+        <item name="colorPrimaryDark">@color/colorDarkBlack</item>
+        <item name="colorAccent">@color/colorAccentBlack</item>
+        <item name="android:textColor">@color/colorWhitePrimary</item>
+        <item name="android:windowBackground">@drawable/window_background_black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
